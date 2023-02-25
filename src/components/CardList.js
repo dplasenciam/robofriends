@@ -12,6 +12,9 @@ import Card from "./Card";
 // };
 
 const CardList = ({ robots }) => {
+  if (true) {
+    throw new Error("ERROROROROR");
+  }
   return (
     <div>
       {robots.map((user) => {
